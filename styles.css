@@ -1,0 +1,36 @@
+.nav {
+  background-color: green;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.planeImg {
+  height: 40px;
+}
+
+.firstcontainer,
+.secondcontainer,
+.thirdcontainer {
+  display: flex;
+}
+
+.secondcontainer {
+  justify-content: space-between;
+  width: 25%;
+}
+
+.thirdcontainer {
+  align-items: center;
+  background-color: white;
+  height: 30px;
+  margin-right: 20px;
+}
