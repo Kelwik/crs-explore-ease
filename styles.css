@@ -82,7 +82,7 @@ input {
 
 .main {
   background-image: url('images/aerial-view-modern-buildings-city-against-sky.jpg');
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-position: center;
   background-size: cover;
   height: 750px;
@@ -356,4 +356,57 @@ textarea {
   background: rgba(255, 255, 255, 0.3);
   border-radius: 15px;
   padding: 16px;
+}
+
+.searchContainer {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  right: 100px;
+  /* background-color: white; */
+  padding: 16px;
+  margin-top: 0px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  box-sizing: border-box;
+  /* display: none; */
+}
+
+.searchImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.searchItems {
+  background-color: white;
+  width: 350px;
+  box-sizing: border-box;
+  padding: 8px;
+  border-radius: 15px;
+}
+
+.searchPlace {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.searchPlace p {
+  margin: 0;
+}
+
+.placeName {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.placeDesc {
+  font-size: 16px;
+}
+
+.visitBtn {
+  width: 100%;
 }
